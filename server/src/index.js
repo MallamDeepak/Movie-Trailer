@@ -5,12 +5,14 @@ const curatedTrailerCatalog = require('./data/latest2024Trailers.json');
 
 const {
   createTmdbClient,
+  createYoutubeClient,
   fetchTmdbHomeRows,
   fetchTmdbMovieByExternalId,
   fetchTmdbTrailersForAllLanguages,
   fetchTmdbVideosForMovie,
   resolveLanguage,
   searchTmdbMovies,
+  searchYoutubeTrailer,
   LANGUAGE_MAP,
 } = require('./omdb');
 
@@ -169,13 +171,39 @@ async function getCuratedMoviePayload(movieId, language) {
     trailersByLanguage[result.langKey] = result.payload;
   });
 
+  const year = String(entry?.movie?.year || '').trim() || (base.releaseDate ? String(base.releaseDate).slice(0, 4) : null);
+
+  const preferredLanguages = [
+    normalizedLanguage,
+    'english',
+    'hindi',
+    'tamil',
+    'telugu',
+    'malayalam',
+  ].filter((value, index, list) => value && list.indexOf(value) === index);
+
+  if (!Object.keys(trailersByLanguage).length) {
+    try {
+      const youtubeClient = createYoutubeClient();
+      for (const langKey of preferredLanguages) {
+        const fallbackTrailer = await searchYoutubeTrailer(youtubeClient, base.title, year, langKey);
+        if (fallbackTrailer?.youtubeEmbedUrl) {
+          trailersByLanguage[langKey] = {
+            ...fallbackTrailer,
+            official: Boolean(fallbackTrailer.official),
+          };
+        }
+      }
+    } catch {
+      // Ignore YouTube fallback errors and continue with available data.
+    }
+  }
+
   const trailer =
     trailersByLanguage[normalizedLanguage] ||
     trailersByLanguage.english ||
     Object.values(trailersByLanguage)[0] ||
     null;
-
-  const year = String(entry?.movie?.year || '').trim() || (base.releaseDate ? String(base.releaseDate).slice(0, 4) : null);
 
   return {
     movie: {
