@@ -1,5 +1,4 @@
 const express = require('express');
-const cors = require('cors');
 const dotenv = require('dotenv');
 const axios = require('axios');
 
@@ -45,21 +44,25 @@ function getTmdbClient() {
 }
 
 app.use(
-  cors({
-    origin(origin, callback) {
-      if (process.env.VERCEL === '1') {
-        callback(null, true);
-        return;
-      }
+  (req, res, next) => {
+    const requestOrigin = req.headers.origin;
 
-      if (isAllowedOrigin(origin)) {
-        callback(null, true);
-        return;
-      }
+    if (process.env.VERCEL === '1') {
+      res.setHeader('Access-Control-Allow-Origin', requestOrigin || '*');
+    } else if (!requestOrigin || isAllowedOrigin(requestOrigin)) {
+      res.setHeader('Access-Control-Allow-Origin', requestOrigin || '*');
+    }
 
-      callback(new Error('Not allowed by CORS'));
-    },
-  })
+    res.setHeader('Vary', 'Origin');
+    res.setHeader('Access-Control-Allow-Methods', 'GET,POST,PUT,PATCH,DELETE,OPTIONS');
+    res.setHeader('Access-Control-Allow-Headers', 'Content-Type, Authorization');
+
+    if (req.method === 'OPTIONS') {
+      return res.status(204).send();
+    }
+
+    return next();
+  }
 );
 app.use(express.json());
 
