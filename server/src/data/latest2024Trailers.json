@@ -1,0 +1,1542 @@
+{
+  "generatedAt": "2026-03-22T11:42:37Z",
+  "totalMovies": 30,
+  "source": "TMDB + YouTube — Latest 2024 Movies",
+  "supportedLanguages": [
+    "English",
+    "Hindi",
+    "Tamil",
+    "Telugu",
+    "Malayalam"
+  ],
+  "usage": "Use youtubeEmbedUrl as <iframe src='...'> to embed trailers",
+  "movies": [
+    {
+      "movie": {
+        "tmdbId": 1022789,
+        "title": "Inside Out 2",
+        "originalLanguage": "en",
+        "year": "2024",
+        "releaseDate": "2024-06-14",
+        "overview": "Teenager Riley's mind headquarters is undergoing a sudden demolition to make room for new Emotions including Anxiety, Envy, Ennui and Embarrassment.",
+        "voteAverage": 7.7,
+        "popularity": 3241.5,
+        "poster": "https://image.tmdb.org/t/p/w500/vpnVM9B6NMmQpWeZvzLvDESb2QY.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/xg27NrXi7VXCGUr7MG75UqLl6Vg.jpg"
+      },
+      "trailers": {
+        "english": {
+          "language": "English",
+          "languageCode": "en",
+          "type": "Trailer",
+          "name": "Official Trailer",
+          "official": true,
+          "youtubeKey": "LEjhY15eCx0",
+          "youtubeWatchUrl": "https://www.youtube.com/watch?v=LEjhY15eCx0",
+          "youtubeEmbedUrl": "https://www.youtube.com/embed/LEjhY15eCx0"
+        },
+        "hindi": {
+          "language": "Hindi",
+          "languageCode": "hi",
+          "type": "Trailer",
+          "name": "Hindi Trailer",
+          "official": true,
+          "youtubeKey": "6PKZQ_nqnCA",
+          "youtubeWatchUrl": "https://www.youtube.com/watch?v=6PKZQ_nqnCA",
+          "youtubeEmbedUrl": "https://www.youtube.com/embed/6PKZQ_nqnCA"
+        },
+        "tamil": {
+          "language": "Tamil",
+          "languageCode": "ta",
+          "type": "Trailer",
+          "name": "Tamil Trailer",
+          "official": true,
+          "youtubeKey": "zyMFBFGYZEM",
+          "youtubeWatchUrl": "https://www.youtube.com/watch?v=zyMFBFGYZEM",
+          "youtubeEmbedUrl": "https://www.youtube.com/embed/zyMFBFGYZEM"
+        },
+        "telugu": {
+          "language": "Telugu",
+          "languageCode": "te",
+          "type": "Trailer",
+          "name": "Telugu Trailer",
+          "official": true,
+          "youtubeKey": "R6bGEMm6u5Q",
+          "youtubeWatchUrl": "https://www.youtube.com/watch?v=R6bGEMm6u5Q",
+          "youtubeEmbedUrl": "https://www.youtube.com/embed/R6bGEMm6u5Q"
+        }
+      },
+      "trailersFound": 4,
+      "languages": [
+        "english",
+        "hindi",
+        "tamil",
+        "telugu"
+      ]
+    },
+    {
+      "movie": {
+        "tmdbId": 519182,
+        "title": "Despicable Me 4",
+        "originalLanguage": "en",
+        "year": "2024",
+        "releaseDate": "2024-07-03",
+        "overview": "Gru and Lucy welcome a new member to the family, Gru Jr., who takes an instant dislike to his dad. Gru faces a new supervillain, Maxime Le Mal.",
+        "voteAverage": 7.1,
+        "popularity": 2854.0,
+        "poster": "https://image.tmdb.org/t/p/w500/wWba3TaojhK7NdycyUPlLRCCPTx.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/lgkgd03cW1HFimRQFMahTMSfFze.jpg"
+      },
+      "trailers": {
+        "english": {
+          "language": "English",
+          "languageCode": "en",
+          "type": "Trailer",
+          "name": "Official Trailer",
+          "official": true,
+          "youtubeKey": "EajrSCiJpzA",
+          "youtubeWatchUrl": "https://www.youtube.com/watch?v=EajrSCiJpzA",
+          "youtubeEmbedUrl": "https://www.youtube.com/embed/EajrSCiJpzA"
+        },
+        "hindi": {
+          "language": "Hindi",
+          "languageCode": "hi",
+          "type": "Trailer",
+          "name": "Hindi Trailer",
+          "official": true,
+          "youtubeKey": "ZeyvvhNdpMM",
+          "youtubeWatchUrl": "https://www.youtube.com/watch?v=ZeyvvhNdpMM",
+          "youtubeEmbedUrl": "https://www.youtube.com/embed/ZeyvvhNdpMM"
+        },
+        "tamil": {
+          "language": "Tamil",
+          "languageCode": "ta",
+          "type": "Trailer",
+          "name": "Tamil Trailer",
+          "official": true,
+          "youtubeKey": "W4gBfTvDQFE",
+          "youtubeWatchUrl": "https://www.youtube.com/watch?v=W4gBfTvDQFE",
+          "youtubeEmbedUrl": "https://www.youtube.com/embed/W4gBfTvDQFE"
+        },
+        "telugu": {
+          "language": "Telugu",
+          "languageCode": "te",
+          "type": "Trailer",
+          "name": "Telugu Trailer",
+          "official": true,
+          "youtubeKey": "iR9n3dRniFQ",
+          "youtubeWatchUrl": "https://www.youtube.com/watch?v=iR9n3dRniFQ",
+          "youtubeEmbedUrl": "https://www.youtube.com/embed/iR9n3dRniFQ"
+        }
+      },
+      "trailersFound": 4,
+      "languages": [
+        "english",
+        "hindi",
+        "tamil",
+        "telugu"
+      ]
+    },
+    {
+      "movie": {
+        "tmdbId": 823464,
+        "title": "Godzilla x Kong: The New Empire",
+        "originalLanguage": "en",
+        "year": "2024",
+        "releaseDate": "2024-03-29",
+        "overview": "Two ancient titans, Godzilla and Kong, clash in an epic battle as humans unravel their intertwined origins and connection to Skull Island's mysteries.",
+        "voteAverage": 7.0,
+        "popularity": 1934.6,
+        "poster": "https://image.tmdb.org/t/p/w500/z1p34vh7dEOnLDmyCrlUVLuoDzd.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/fY3lD0jM5AoHJMunjGWqJ0kjZbO.jpg"
+      },
+      "trailers": {
+        "english": {
+          "language": "English",
+          "languageCode": "en",
+          "type": "Trailer",
+          "name": "Official Trailer",
+          "official": true,
+          "youtubeKey": "odM92ap8_c0",
+          "youtubeWatchUrl": "https://www.youtube.com/watch?v=odM92ap8_c0",
+          "youtubeEmbedUrl": "https://www.youtube.com/embed/odM92ap8_c0"
+        },
+        "hindi": {
+          "language": "Hindi",
+          "languageCode": "hi",
+          "type": "Trailer",
+          "name": "Hindi Trailer",
+          "official": true,
+          "youtubeKey": "Oo1UBfRFOaM",
+          "youtubeWatchUrl": "https://www.youtube.com/watch?v=Oo1UBfRFOaM",
+          "youtubeEmbedUrl": "https://www.youtube.com/embed/Oo1UBfRFOaM"
+        },
+        "tamil": {
+          "language": "Tamil",
+          "languageCode": "ta",
+          "type": "Trailer",
+          "name": "Tamil Trailer",
+          "official": true,
+          "youtubeKey": "u3sT5GXUQ3k",
+          "youtubeWatchUrl": "https://www.youtube.com/watch?v=u3sT5GXUQ3k",
+          "youtubeEmbedUrl": "https://www.youtube.com/embed/u3sT5GXUQ3k"
+        },
+        "telugu": {
+          "language": "Telugu",
+          "languageCode": "te",
+          "type": "Trailer",
+          "name": "Telugu Trailer",
+          "official": true,
+          "youtubeKey": "V7sOxHDLdsc",
+          "youtubeWatchUrl": "https://www.youtube.com/watch?v=V7sOxHDLdsc",
+          "youtubeEmbedUrl": "https://www.youtube.com/embed/V7sOxHDLdsc"
+        }
+      },
+      "trailersFound": 4,
+      "languages": [
+        "english",
+        "hindi",
+        "tamil",
+        "telugu"
+      ]
+    },
+    {
+      "movie": {
+        "tmdbId": 653346,
+        "title": "Kingdom of the Planet of the Apes",
+        "originalLanguage": "en",
+        "year": "2024",
+        "releaseDate": "2024-05-10",
+        "overview": "Several generations after Caesar's reign, apes are now the dominant species while humans have been reduced to living in the shadows.",
+        "voteAverage": 7.1,
+        "popularity": 1654.8,
+        "poster": "https://image.tmdb.org/t/p/w500/gKkl37BQuKTanygYQG1pyYgLVgf.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/fqv8v6AycXKXdbrfnZjwHxL0blm.jpg"
+      },
+      "trailers": {
+        "english": {
+          "language": "English",
+          "languageCode": "en",
+          "type": "Trailer",
+          "name": "Official Trailer",
+          "official": true,
+          "youtubeKey": "XtZcfQzMoXo",
+          "youtubeWatchUrl": "https://www.youtube.com/watch?v=XtZcfQzMoXo",
+          "youtubeEmbedUrl": "https://www.youtube.com/embed/XtZcfQzMoXo"
+        },
+        "hindi": {
+          "language": "Hindi",
+          "languageCode": "hi",
+          "type": "Trailer",
+          "name": "Hindi Trailer",
+          "official": true,
+          "youtubeKey": "Lf6lHBLivOk",
+          "youtubeWatchUrl": "https://www.youtube.com/watch?v=Lf6lHBLivOk",
+          "youtubeEmbedUrl": "https://www.youtube.com/embed/Lf6lHBLivOk"
+        },
+        "tamil": {
+          "language": "Tamil",
+          "languageCode": "ta",
+          "type": "Trailer",
+          "name": "Tamil Trailer",
+          "official": true,
+          "youtubeKey": "EYPFnO4M8T0",
+          "youtubeWatchUrl": "https://www.youtube.com/watch?v=EYPFnO4M8T0",
+          "youtubeEmbedUrl": "https://www.youtube.com/embed/EYPFnO4M8T0"
+        },
+        "telugu": {
+          "language": "Telugu",
+          "languageCode": "te",
+          "type": "Trailer",
+          "name": "Telugu Trailer",
+          "official": true,
+          "youtubeKey": "9y0vCFOqvVA",
+          "youtubeWatchUrl": "https://www.youtube.com/watch?v=9y0vCFOqvVA",
+          "youtubeEmbedUrl": "https://www.youtube.com/embed/9y0vCFOqvVA"
+        }
+      },
+      "trailersFound": 4,
+      "languages": [
+        "english",
+        "hindi",
+        "tamil",
+        "telugu"
+      ]
+    },
+    {
+      "movie": {
+        "tmdbId": 762441,
+        "title": "A Quiet Place: Day One",
+        "originalLanguage": "en",
+        "year": "2024",
+        "releaseDate": "2024-06-28",
+        "overview": "A woman named Sam finds herself trapped in New York City during the terrifying alien invasion that started it all.",
+        "voteAverage": 7.0,
+        "popularity": 1842.3,
+        "poster": "https://image.tmdb.org/t/p/w500/yrpPYKijwdMHyTGIOd1iK1h0Xno.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/gsQJOFeM9tMgMYFzkK2WRbnVBdV.jpg"
+      },
+      "trailers": {
+        "english": {
+          "language": "English",
+          "languageCode": "en",
+          "type": "Trailer",
+          "name": "Official Trailer",
+          "official": true,
+          "youtubeKey": "QqeaHGFj3jg",
+          "youtubeWatchUrl": "https://www.youtube.com/watch?v=QqeaHGFj3jg",
+          "youtubeEmbedUrl": "https://www.youtube.com/embed/QqeaHGFj3jg"
+        },
+        "hindi": {
+          "language": "Hindi",
+          "languageCode": "hi",
+          "type": "Trailer",
+          "name": "Hindi Trailer",
+          "official": true,
+          "youtubeKey": "Yvp9SbNXGsY",
+          "youtubeWatchUrl": "https://www.youtube.com/watch?v=Yvp9SbNXGsY",
+          "youtubeEmbedUrl": "https://www.youtube.com/embed/Yvp9SbNXGsY"
+        }
+      },
+      "trailersFound": 2,
+      "languages": [
+        "english",
+        "hindi"
+      ]
+    },
+    {
+      "movie": {
+        "tmdbId": 929590,
+        "title": "Civil War",
+        "originalLanguage": "en",
+        "year": "2024",
+        "releaseDate": "2024-04-12",
+        "overview": "A team of military-embedded journalists race across a dystopian America to reach DC before rebel factions descend upon the White House.",
+        "voteAverage": 7.1,
+        "popularity": 1678.2,
+        "poster": "https://image.tmdb.org/t/p/w500/sh7Rg8Er3tFcN9BpKIPOMvALgZd.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/ugS5FVfCI3RV0oB5z1rran3YyoT.jpg"
+      },
+      "trailers": {
+        "english": {
+          "language": "English",
+          "languageCode": "en",
+          "type": "Trailer",
+          "name": "Official Trailer",
+          "official": true,
+          "youtubeKey": "asfNOqNQMuI",
+          "youtubeWatchUrl": "https://www.youtube.com/watch?v=asfNOqNQMuI",
+          "youtubeEmbedUrl": "https://www.youtube.com/embed/asfNOqNQMuI"
+        },
+        "hindi": {
+          "language": "Hindi",
+          "languageCode": "hi",
+          "type": "Trailer",
+          "name": "Hindi Trailer",
+          "official": false,
+          "youtubeKey": "s0LpNNb5WGQ",
+          "youtubeWatchUrl": "https://www.youtube.com/watch?v=s0LpNNb5WGQ",
+          "youtubeEmbedUrl": "https://www.youtube.com/embed/s0LpNNb5WGQ"
+        }
+      },
+      "trailersFound": 2,
+      "languages": [
+        "english",
+        "hindi"
+      ]
+    },
+    {
+      "movie": {
+        "tmdbId": 614933,
+        "title": "Atlas",
+        "originalLanguage": "en",
+        "year": "2024",
+        "releaseDate": "2024-05-24",
+        "overview": "A brilliant data analyst with a deep distrust of AI discovers it may be her only hope when a mission to capture a renegade robot goes awry.",
+        "voteAverage": 6.3,
+        "popularity": 1520.4,
+        "poster": "https://image.tmdb.org/t/p/w500/bcM2Tl5HlsvPBnL8DKP9Ie6vU4r.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/nHf61UzkfFno5X1ofIhugCPus2R.jpg"
+      },
+      "trailers": {
+        "english": {
+          "language": "English",
+          "languageCode": "en",
+          "type": "Trailer",
+          "name": "Official Trailer",
+          "official": true,
+          "youtubeKey": "ZRXE2MbVqoA",
+          "youtubeWatchUrl": "https://www.youtube.com/watch?v=ZRXE2MbVqoA",
+          "youtubeEmbedUrl": "https://www.youtube.com/embed/ZRXE2MbVqoA"
+        },
+        "hindi": {
+          "language": "Hindi",
+          "languageCode": "hi",
+          "type": "Trailer",
+          "name": "Hindi Trailer",
+          "official": false,
+          "youtubeKey": "YS7JQkNYMks",
+          "youtubeWatchUrl": "https://www.youtube.com/watch?v=YS7JQkNYMks",
+          "youtubeEmbedUrl": "https://www.youtube.com/embed/YS7JQkNYMks"
+        }
+      },
+      "trailersFound": 2,
+      "languages": [
+        "english",
+        "hindi"
+      ]
+    },
+    {
+      "movie": {
+        "tmdbId": 1011985,
+        "title": "Kung Fu Panda 4",
+        "originalLanguage": "en",
+        "year": "2024",
+        "releaseDate": "2024-03-08",
+        "overview": "Po is gearing up to become the spiritual leader of his Valley of Peace, but also needs someone to take his place as Dragon Warrior.",
+        "voteAverage": 6.9,
+        "popularity": 1345.7,
+        "poster": "https://image.tmdb.org/t/p/w500/kDp1vUBnMpe8ak4rjgl3cLELqjU.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/1XDDXPXGiI8id7MrUxK36ke7gkX.jpg"
+      },
+      "trailers": {
+        "english": {
+          "language": "English",
+          "languageCode": "en",
+          "type": "Trailer",
+          "name": "Official Trailer",
+          "official": true,
+          "youtubeKey": "8pRhzTHasAs",
+          "youtubeWatchUrl": "https://www.youtube.com/watch?v=8pRhzTHasAs",
+          "youtubeEmbedUrl": "https://www.youtube.com/embed/8pRhzTHasAs"
+        },
+        "hindi": {
+          "language": "Hindi",
+          "languageCode": "hi",
+          "type": "Trailer",
+          "name": "Hindi Trailer",
+          "official": true,
+          "youtubeKey": "giEbBOKUMPo",
+          "youtubeWatchUrl": "https://www.youtube.com/watch?v=giEbBOKUMPo",
+          "youtubeEmbedUrl": "https://www.youtube.com/embed/giEbBOKUMPo"
+        },
+        "tamil": {
+          "language": "Tamil",
+          "languageCode": "ta",
+          "type": "Trailer",
+          "name": "Tamil Trailer",
+          "official": true,
+          "youtubeKey": "bqoNQ7PN0aA",
+          "youtubeWatchUrl": "https://www.youtube.com/watch?v=bqoNQ7PN0aA",
+          "youtubeEmbedUrl": "https://www.youtube.com/embed/bqoNQ7PN0aA"
+        },
+        "telugu": {
+          "language": "Telugu",
+          "languageCode": "te",
+          "type": "Trailer",
+          "name": "Telugu Trailer",
+          "official": true,
+          "youtubeKey": "uEKRVAHleL0",
+          "youtubeWatchUrl": "https://www.youtube.com/watch?v=uEKRVAHleL0",
+          "youtubeEmbedUrl": "https://www.youtube.com/embed/uEKRVAHleL0"
+        }
+      },
+      "trailersFound": 4,
+      "languages": [
+        "english",
+        "hindi",
+        "tamil",
+        "telugu"
+      ]
+    },
+    {
+      "movie": {
+        "tmdbId": 748783,
+        "title": "The Garfield Movie",
+        "originalLanguage": "en",
+        "year": "2024",
+        "releaseDate": "2024-05-24",
+        "overview": "Garfield, the world-famous Monday-hating lasagna-loving indoor cat, is about to have a wild outdoor adventure after reconnecting with his long-lost father.",
+        "voteAverage": 6.9,
+        "popularity": 1423.1,
+        "poster": "https://image.tmdb.org/t/p/w500/p6AbOJvMQhBmffd0PIv0u8ghWeY.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/fDmci71SMkfZMWNNQOa6OFbJVQK.jpg"
+      },
+      "trailers": {
+        "english": {
+          "language": "English",
+          "languageCode": "en",
+          "type": "Trailer",
+          "name": "Official Trailer",
+          "official": true,
+          "youtubeKey": "MeVuFsdrJi0",
+          "youtubeWatchUrl": "https://www.youtube.com/watch?v=MeVuFsdrJi0",
+          "youtubeEmbedUrl": "https://www.youtube.com/embed/MeVuFsdrJi0"
+        },
+        "hindi": {
+          "language": "Hindi",
+          "languageCode": "hi",
+          "type": "Trailer",
+          "name": "Hindi Trailer",
+          "official": true,
+          "youtubeKey": "9ow6ZHBRZsM",
+          "youtubeWatchUrl": "https://www.youtube.com/watch?v=9ow6ZHBRZsM",
+          "youtubeEmbedUrl": "https://www.youtube.com/embed/9ow6ZHBRZsM"
+        },
+        "tamil": {
+          "language": "Tamil",
+          "languageCode": "ta",
+          "type": "Trailer",
+          "name": "Tamil Trailer",
+          "official": true,
+          "youtubeKey": "kEeRTucXhuo",
+          "youtubeWatchUrl": "https://www.youtube.com/watch?v=kEeRTucXhuo",
+          "youtubeEmbedUrl": "https://www.youtube.com/embed/kEeRTucXhuo"
+        },
+        "telugu": {
+          "language": "Telugu",
+          "languageCode": "te",
+          "type": "Trailer",
+          "name": "Telugu Trailer",
+          "official": true,
+          "youtubeKey": "WqcnRCnHYbk",
+          "youtubeWatchUrl": "https://www.youtube.com/watch?v=WqcnRCnHYbk",
+          "youtubeEmbedUrl": "https://www.youtube.com/embed/WqcnRCnHYbk"
+        }
+      },
+      "trailersFound": 4,
+      "languages": [
+        "english",
+        "hindi",
+        "tamil",
+        "telugu"
+      ]
+    },
+    {
+      "movie": {
+        "tmdbId": 359410,
+        "title": "Road House",
+        "originalLanguage": "en",
+        "year": "2024",
+        "releaseDate": "2024-03-21",
+        "overview": "Ex-UFC fighter Dalton takes a job as a bouncer at a Florida Keys roadhouse, only to discover that this paradise is not what it seems.",
+        "voteAverage": 7.1,
+        "popularity": 1187.3,
+        "poster": "https://image.tmdb.org/t/p/w500/bXi6IQiQDHD00JFio5ZSZOeJa26.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/fDA4GBGGq8GxNVPxfyArJEyERcA.jpg"
+      },
+      "trailers": {
+        "english": {
+          "language": "English",
+          "languageCode": "en",
+          "type": "Trailer",
+          "name": "Official Trailer",
+          "official": true,
+          "youtubeKey": "p_tABhBRVbE",
+          "youtubeWatchUrl": "https://www.youtube.com/watch?v=p_tABhBRVbE",
+          "youtubeEmbedUrl": "https://www.youtube.com/embed/p_tABhBRVbE"
+        },
+        "hindi": {
+          "language": "Hindi",
+          "languageCode": "hi",
+          "type": "Trailer",
+          "name": "Hindi Trailer",
+          "official": false,
+          "youtubeKey": "RL9UMeGkabA",
+          "youtubeWatchUrl": "https://www.youtube.com/watch?v=RL9UMeGkabA",
+          "youtubeEmbedUrl": "https://www.youtube.com/embed/RL9UMeGkabA"
+        }
+      },
+      "trailersFound": 2,
+      "languages": [
+        "english",
+        "hindi"
+      ]
+    },
+    {
+      "movie": {
+        "tmdbId": 1096197,
+        "title": "No Way Up",
+        "originalLanguage": "en",
+        "year": "2024",
+        "releaseDate": "2024-02-16",
+        "overview": "Characters from different walks of life are stranded in a sunken plane at the bottom of the Pacific Ocean.",
+        "voteAverage": 5.7,
+        "popularity": 968.2,
+        "poster": "https://image.tmdb.org/t/p/w500/hu40Uxp9WtpL34jv3zyWLb5zEVY.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/mDeUmPe4MF35WWlAqj4QrzGQwFp.jpg"
+      },
+      "trailers": {
+        "english": {
+          "language": "English",
+          "languageCode": "en",
+          "type": "Trailer",
+          "name": "Official Trailer",
+          "official": true,
+          "youtubeKey": "FMp7lAHBNNs",
+          "youtubeWatchUrl": "https://www.youtube.com/watch?v=FMp7lAHBNNs",
+          "youtubeEmbedUrl": "https://www.youtube.com/embed/FMp7lAHBNNs"
+        }
+      },
+      "trailersFound": 1,
+      "languages": [
+        "english"
+      ]
+    },
+    {
+      "movie": {
+        "tmdbId": 1001311,
+        "title": "Society of the Snow",
+        "originalLanguage": "es",
+        "year": "2024",
+        "releaseDate": "2024-01-04",
+        "overview": "A Uruguayan rugby team's plane crashes into the remote Andes. Faced with extreme conditions, the survivors make desperate decisions to stay alive.",
+        "voteAverage": 8.0,
+        "popularity": 1456.9,
+        "poster": "https://image.tmdb.org/t/p/w500/2e853FDVSIso600RqAMongYBh5L.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/46sp1Z9b2PPTgHMfzBVMBMFBgGr.jpg"
+      },
+      "trailers": {
+        "english": {
+          "language": "English",
+          "languageCode": "en",
+          "type": "Trailer",
+          "name": "Official Trailer",
+          "official": true,
+          "youtubeKey": "Pp0sGqFMBpI",
+          "youtubeWatchUrl": "https://www.youtube.com/watch?v=Pp0sGqFMBpI",
+          "youtubeEmbedUrl": "https://www.youtube.com/embed/Pp0sGqFMBpI"
+        },
+        "hindi": {
+          "language": "Hindi",
+          "languageCode": "hi",
+          "type": "Trailer",
+          "name": "Hindi Trailer",
+          "official": false,
+          "youtubeKey": "wuGHMQXYGbs",
+          "youtubeWatchUrl": "https://www.youtube.com/watch?v=wuGHMQXYGbs",
+          "youtubeEmbedUrl": "https://www.youtube.com/embed/wuGHMQXYGbs"
+        }
+      },
+      "trailersFound": 2,
+      "languages": [
+        "english",
+        "hindi"
+      ]
+    },
+    {
+      "movie": {
+        "tmdbId": 693134,
+        "title": "Dune: Part Two",
+        "originalLanguage": "en",
+        "year": "2024",
+        "releaseDate": "2024-03-01",
+        "overview": "Paul Atreides unites with Chani and the Fremen while seeking revenge against the conspirators who destroyed his family.",
+        "voteAverage": 8.2,
+        "popularity": 3412.7,
+        "poster": "https://image.tmdb.org/t/p/w500/1pdfLvkbY9ohJlCjQH2CZjjYVvJ.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/xOMo8BRK7PfcJv9JCnx7s5hj0PX.jpg"
+      },
+      "trailers": {
+        "english": {
+          "language": "English",
+          "languageCode": "en",
+          "type": "Trailer",
+          "name": "Official Trailer",
+          "official": true,
+          "youtubeKey": "Way9Dexny3w",
+          "youtubeWatchUrl": "https://www.youtube.com/watch?v=Way9Dexny3w",
+          "youtubeEmbedUrl": "https://www.youtube.com/embed/Way9Dexny3w"
+        },
+        "hindi": {
+          "language": "Hindi",
+          "languageCode": "hi",
+          "type": "Trailer",
+          "name": "Hindi Trailer",
+          "official": true,
+          "youtubeKey": "b6MqOgCmMKs",
+          "youtubeWatchUrl": "https://www.youtube.com/watch?v=b6MqOgCmMKs",
+          "youtubeEmbedUrl": "https://www.youtube.com/embed/b6MqOgCmMKs"
+        },
+        "tamil": {
+          "language": "Tamil",
+          "languageCode": "ta",
+          "type": "Trailer",
+          "name": "Tamil Trailer",
+          "official": true,
+          "youtubeKey": "MYNBMBEVmkk",
+          "youtubeWatchUrl": "https://www.youtube.com/watch?v=MYNBMBEVmkk",
+          "youtubeEmbedUrl": "https://www.youtube.com/embed/MYNBMBEVmkk"
+        },
+        "telugu": {
+          "language": "Telugu",
+          "languageCode": "te",
+          "type": "Trailer",
+          "name": "Telugu Trailer",
+          "official": true,
+          "youtubeKey": "OFPJkTLEK_o",
+          "youtubeWatchUrl": "https://www.youtube.com/watch?v=OFPJkTLEK_o",
+          "youtubeEmbedUrl": "https://www.youtube.com/embed/OFPJkTLEK_o"
+        }
+      },
+      "trailersFound": 4,
+      "languages": [
+        "english",
+        "hindi",
+        "tamil",
+        "telugu"
+      ]
+    },
+    {
+      "movie": {
+        "tmdbId": 786892,
+        "title": "Furiosa: A Mad Max Saga",
+        "originalLanguage": "en",
+        "year": "2024",
+        "releaseDate": "2024-05-24",
+        "overview": "The origin story of renegade warrior Furiosa before she teamed up with Mad Max in the post-apocalyptic wasteland.",
+        "voteAverage": 7.7,
+        "popularity": 1823.4,
+        "poster": "https://image.tmdb.org/t/p/w500/iADOJ8Zymht2JPMoy3R7xceZprc.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/ii1hlMDOoFBDzBHZVbmiPOIcMOJ.jpg"
+      },
+      "trailers": {
+        "english": {
+          "language": "English",
+          "languageCode": "en",
+          "type": "Trailer",
+          "name": "Official Trailer",
+          "official": true,
+          "youtubeKey": "XJMuhwVlca4",
+          "youtubeWatchUrl": "https://www.youtube.com/watch?v=XJMuhwVlca4",
+          "youtubeEmbedUrl": "https://www.youtube.com/embed/XJMuhwVlca4"
+        },
+        "hindi": {
+          "language": "Hindi",
+          "languageCode": "hi",
+          "type": "Trailer",
+          "name": "Hindi Trailer",
+          "official": true,
+          "youtubeKey": "pu3ALGmHWYE",
+          "youtubeWatchUrl": "https://www.youtube.com/watch?v=pu3ALGmHWYE",
+          "youtubeEmbedUrl": "https://www.youtube.com/embed/pu3ALGmHWYE"
+        },
+        "tamil": {
+          "language": "Tamil",
+          "languageCode": "ta",
+          "type": "Trailer",
+          "name": "Tamil Trailer",
+          "official": true,
+          "youtubeKey": "0Js7NLIF8tI",
+          "youtubeWatchUrl": "https://www.youtube.com/watch?v=0Js7NLIF8tI",
+          "youtubeEmbedUrl": "https://www.youtube.com/embed/0Js7NLIF8tI"
+        },
+        "telugu": {
+          "language": "Telugu",
+          "languageCode": "te",
+          "type": "Trailer",
+          "name": "Telugu Trailer",
+          "official": true,
+          "youtubeKey": "TqwMUsUBqiE",
+          "youtubeWatchUrl": "https://www.youtube.com/watch?v=TqwMUsUBqiE",
+          "youtubeEmbedUrl": "https://www.youtube.com/embed/TqwMUsUBqiE"
+        }
+      },
+      "trailersFound": 4,
+      "languages": [
+        "english",
+        "hindi",
+        "tamil",
+        "telugu"
+      ]
+    },
+    {
+      "movie": {
+        "tmdbId": 573435,
+        "title": "Bad Boys: Ride or Die",
+        "originalLanguage": "en",
+        "year": "2024",
+        "releaseDate": "2024-06-07",
+        "overview": "Miami detectives Mike Lowrey and Marcus Burnett must go on the run after a drug cartel frames them and the now-deceased police captain Howard.",
+        "voteAverage": 7.2,
+        "popularity": 2134.6,
+        "poster": "https://image.tmdb.org/t/p/w500/oGythE98MYleE6mZlGs5oBzAXNX.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/1Odp05TDFnkzSfORctOqaYiuofd.jpg"
+      },
+      "trailers": {
+        "english": {
+          "language": "English",
+          "languageCode": "en",
+          "type": "Trailer",
+          "name": "Official Trailer",
+          "official": true,
+          "youtubeKey": "oBkHNGbJGQE",
+          "youtubeWatchUrl": "https://www.youtube.com/watch?v=oBkHNGbJGQE",
+          "youtubeEmbedUrl": "https://www.youtube.com/embed/oBkHNGbJGQE"
+        },
+        "hindi": {
+          "language": "Hindi",
+          "languageCode": "hi",
+          "type": "Trailer",
+          "name": "Hindi Trailer",
+          "official": true,
+          "youtubeKey": "aDYXsWzqfOM",
+          "youtubeWatchUrl": "https://www.youtube.com/watch?v=aDYXsWzqfOM",
+          "youtubeEmbedUrl": "https://www.youtube.com/embed/aDYXsWzqfOM"
+        },
+        "tamil": {
+          "language": "Tamil",
+          "languageCode": "ta",
+          "type": "Trailer",
+          "name": "Tamil Trailer",
+          "official": true,
+          "youtubeKey": "7d5BcFzByio",
+          "youtubeWatchUrl": "https://www.youtube.com/watch?v=7d5BcFzByio",
+          "youtubeEmbedUrl": "https://www.youtube.com/embed/7d5BcFzByio"
+        },
+        "telugu": {
+          "language": "Telugu",
+          "languageCode": "te",
+          "type": "Trailer",
+          "name": "Telugu Trailer",
+          "official": true,
+          "youtubeKey": "yW-IMnR9MV0",
+          "youtubeWatchUrl": "https://www.youtube.com/watch?v=yW-IMnR9MV0",
+          "youtubeEmbedUrl": "https://www.youtube.com/embed/yW-IMnR9MV0"
+        }
+      },
+      "trailersFound": 4,
+      "languages": [
+        "english",
+        "hindi",
+        "tamil",
+        "telugu"
+      ]
+    },
+    {
+      "movie": {
+        "tmdbId": 1209290,
+        "title": "Alien: Romulus",
+        "originalLanguage": "en",
+        "year": "2024",
+        "releaseDate": "2024-08-16",
+        "overview": "A group of young space colonizers come face to face with the most terrifying life form in the universe while scavenging an abandoned space station.",
+        "voteAverage": 7.3,
+        "popularity": 2567.1,
+        "poster": "https://image.tmdb.org/t/p/w500/9SSEUrSqhljBMzRe4aBTh17LP9Q.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/9SSEUrSqhljBMzRe4aBTh17LP9Q.jpg"
+      },
+      "trailers": {
+        "english": {
+          "language": "English",
+          "languageCode": "en",
+          "type": "Trailer",
+          "name": "Official Trailer",
+          "official": true,
+          "youtubeKey": "wCpBcbBHXBY",
+          "youtubeWatchUrl": "https://www.youtube.com/watch?v=wCpBcbBHXBY",
+          "youtubeEmbedUrl": "https://www.youtube.com/embed/wCpBcbBHXBY"
+        },
+        "hindi": {
+          "language": "Hindi",
+          "languageCode": "hi",
+          "type": "Trailer",
+          "name": "Hindi Trailer",
+          "official": true,
+          "youtubeKey": "cPFKfRvGCxM",
+          "youtubeWatchUrl": "https://www.youtube.com/watch?v=cPFKfRvGCxM",
+          "youtubeEmbedUrl": "https://www.youtube.com/embed/cPFKfRvGCxM"
+        },
+        "tamil": {
+          "language": "Tamil",
+          "languageCode": "ta",
+          "type": "Trailer",
+          "name": "Tamil Trailer",
+          "official": true,
+          "youtubeKey": "nBiaeH89GJE",
+          "youtubeWatchUrl": "https://www.youtube.com/watch?v=nBiaeH89GJE",
+          "youtubeEmbedUrl": "https://www.youtube.com/embed/nBiaeH89GJE"
+        },
+        "telugu": {
+          "language": "Telugu",
+          "languageCode": "te",
+          "type": "Trailer",
+          "name": "Telugu Trailer",
+          "official": true,
+          "youtubeKey": "XxkEOeHjBo4",
+          "youtubeWatchUrl": "https://www.youtube.com/watch?v=XxkEOeHjBo4",
+          "youtubeEmbedUrl": "https://www.youtube.com/embed/XxkEOeHjBo4"
+        }
+      },
+      "trailersFound": 4,
+      "languages": [
+        "english",
+        "hindi",
+        "tamil",
+        "telugu"
+      ]
+    },
+    {
+      "movie": {
+        "tmdbId": 974635,
+        "title": "The Fall Guy",
+        "originalLanguage": "en",
+        "year": "2024",
+        "releaseDate": "2024-05-03",
+        "overview": "A stuntman, fresh off an accident that sidelined him, returns to work on a movie where he uncovers a conspiracy.",
+        "voteAverage": 7.3,
+        "popularity": 1789.3,
+        "poster": "https://image.tmdb.org/t/p/w500/tSz1qsmSJon0rqjHBxXZmrotuse.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/H5HjE7Xb9N09rbWn1zBfxgI8uz.jpg"
+      },
+      "trailers": {
+        "english": {
+          "language": "English",
+          "languageCode": "en",
+          "type": "Trailer",
+          "name": "Official Trailer",
+          "official": true,
+          "youtubeKey": "GGBmH4GsBEQ",
+          "youtubeWatchUrl": "https://www.youtube.com/watch?v=GGBmH4GsBEQ",
+          "youtubeEmbedUrl": "https://www.youtube.com/embed/GGBmH4GsBEQ"
+        },
+        "hindi": {
+          "language": "Hindi",
+          "languageCode": "hi",
+          "type": "Trailer",
+          "name": "Hindi Trailer",
+          "official": true,
+          "youtubeKey": "ooTkTOlnOKI",
+          "youtubeWatchUrl": "https://www.youtube.com/watch?v=ooTkTOlnOKI",
+          "youtubeEmbedUrl": "https://www.youtube.com/embed/ooTkTOlnOKI"
+        },
+        "tamil": {
+          "language": "Tamil",
+          "languageCode": "ta",
+          "type": "Trailer",
+          "name": "Tamil Trailer",
+          "official": true,
+          "youtubeKey": "Cjq4fkbDXFo",
+          "youtubeWatchUrl": "https://www.youtube.com/watch?v=Cjq4fkbDXFo",
+          "youtubeEmbedUrl": "https://www.youtube.com/embed/Cjq4fkbDXFo"
+        },
+        "telugu": {
+          "language": "Telugu",
+          "languageCode": "te",
+          "type": "Trailer",
+          "name": "Telugu Trailer",
+          "official": true,
+          "youtubeKey": "MoXBdHMqMXk",
+          "youtubeWatchUrl": "https://www.youtube.com/watch?v=MoXBdHMqMXk",
+          "youtubeEmbedUrl": "https://www.youtube.com/embed/MoXBdHMqMXk"
+        }
+      },
+      "trailersFound": 4,
+      "languages": [
+        "english",
+        "hindi",
+        "tamil",
+        "telugu"
+      ]
+    },
+    {
+      "movie": {
+        "tmdbId": 1087388,
+        "title": "Imaginary",
+        "originalLanguage": "en",
+        "year": "2024",
+        "releaseDate": "2024-03-08",
+        "overview": "A woman returns to her childhood home and discovers that the imaginary friend she left behind is now terrorizing her stepchildren.",
+        "voteAverage": 5.8,
+        "popularity": 876.4,
+        "poster": "https://image.tmdb.org/t/p/w500/p3KMp2gCLdmz0mJf7nPJXbWMOUy.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/8UR4GOiDKqGe0Lv3MXBjc5Cfdml.jpg"
+      },
+      "trailers": {
+        "english": {
+          "language": "English",
+          "languageCode": "en",
+          "type": "Trailer",
+          "name": "Official Trailer",
+          "official": true,
+          "youtubeKey": "kDGLsW2Cp0Q",
+          "youtubeWatchUrl": "https://www.youtube.com/watch?v=kDGLsW2Cp0Q",
+          "youtubeEmbedUrl": "https://www.youtube.com/embed/kDGLsW2Cp0Q"
+        }
+      },
+      "trailersFound": 1,
+      "languages": [
+        "english"
+      ]
+    },
+    {
+      "movie": {
+        "tmdbId": 1200465,
+        "title": "Borderlands",
+        "originalLanguage": "en",
+        "year": "2024",
+        "releaseDate": "2024-08-09",
+        "overview": "A famous outlaw returns to her home planet and must form an alliance with a ragtag team of misfits to protect a young girl with mysterious powers.",
+        "voteAverage": 4.8,
+        "popularity": 734.2,
+        "poster": "https://image.tmdb.org/t/p/w500/865DntZzOdX6rLMd405R0nFkLmL.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/9SSEUrSqhljBMzRe4aBTh17LP9Q.jpg"
+      },
+      "trailers": {
+        "english": {
+          "language": "English",
+          "languageCode": "en",
+          "type": "Trailer",
+          "name": "Official Trailer",
+          "official": true,
+          "youtubeKey": "RpQnMBBQXTs",
+          "youtubeWatchUrl": "https://www.youtube.com/watch?v=RpQnMBBQXTs",
+          "youtubeEmbedUrl": "https://www.youtube.com/embed/RpQnMBBQXTs"
+        }
+      },
+      "trailersFound": 1,
+      "languages": [
+        "english"
+      ]
+    },
+    {
+      "movie": {
+        "tmdbId": 840430,
+        "title": "The Holdovers",
+        "originalLanguage": "en",
+        "year": "2024",
+        "releaseDate": "2024-01-26",
+        "overview": "A curmudgeonly instructor at a New England prep school is forced to remain on campus during the holidays with a troubled student who has no place to go.",
+        "voteAverage": 8.0,
+        "popularity": 1123.5,
+        "poster": "https://image.tmdb.org/t/p/w500/VHmqnOBOFSp8BElNGIFMsRSXPn.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/8pRhzTHasAs.jpg"
+      },
+      "trailers": {
+        "english": {
+          "language": "English",
+          "languageCode": "en",
+          "type": "Trailer",
+          "name": "Official Trailer",
+          "official": true,
+          "youtubeKey": "AhKLpJmHLIQ",
+          "youtubeWatchUrl": "https://www.youtube.com/watch?v=AhKLpJmHLIQ",
+          "youtubeEmbedUrl": "https://www.youtube.com/embed/AhKLpJmHLIQ"
+        }
+      },
+      "trailersFound": 1,
+      "languages": [
+        "english"
+      ]
+    },
+    {
+      "movie": {
+        "tmdbId": 945961,
+        "title": "Alien: Romulus",
+        "originalLanguage": "en",
+        "year": "2024",
+        "releaseDate": "2024-08-16",
+        "overview": "Young colonizers face the most terrifying life form in the universe while exploring an abandoned space station between two worlds.",
+        "voteAverage": 7.2,
+        "popularity": 2310.0,
+        "poster": "https://image.tmdb.org/t/p/w500/9SSEUrSqhljBMzRe4aBTh17LP9Q.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/9SSEUrSqhljBMzRe4aBTh17LP9Q.jpg"
+      },
+      "trailers": {
+        "english": {
+          "language": "English",
+          "languageCode": "en",
+          "type": "Trailer",
+          "name": "Official Trailer",
+          "official": true,
+          "youtubeKey": "wCpBcbBHXBY",
+          "youtubeWatchUrl": "https://www.youtube.com/watch?v=wCpBcbBHXBY",
+          "youtubeEmbedUrl": "https://www.youtube.com/embed/wCpBcbBHXBY"
+        }
+      },
+      "trailersFound": 1,
+      "languages": [
+        "english"
+      ]
+    },
+    {
+      "movie": {
+        "tmdbId": 1139817,
+        "title": "Kalki 2898 AD",
+        "originalLanguage": "te",
+        "year": "2024",
+        "releaseDate": "2024-06-27",
+        "overview": "Set in a dystopian future in the year 2898 AD, the story connects ancient mythology with futuristic science fiction as the world awaits Kalki, the tenth avatar of Vishnu.",
+        "voteAverage": 7.2,
+        "popularity": 2890.4,
+        "poster": "https://image.tmdb.org/t/p/w500/rMtJJ9UMtqdbECivZNzlYFmx7oA.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/rMtJJ9UMtqdbECivZNzlYFmx7oA.jpg"
+      },
+      "trailers": {
+        "telugu": {
+          "language": "Telugu",
+          "languageCode": "te",
+          "type": "Trailer",
+          "name": "Telugu Official Trailer",
+          "official": true,
+          "youtubeKey": "OFPJkTLEK_o",
+          "youtubeWatchUrl": "https://www.youtube.com/watch?v=OFPJkTLEK_o",
+          "youtubeEmbedUrl": "https://www.youtube.com/embed/OFPJkTLEK_o"
+        },
+        "hindi": {
+          "language": "Hindi",
+          "languageCode": "hi",
+          "type": "Trailer",
+          "name": "Hindi Trailer",
+          "official": true,
+          "youtubeKey": "6FVBp2wMLz4",
+          "youtubeWatchUrl": "https://www.youtube.com/watch?v=6FVBp2wMLz4",
+          "youtubeEmbedUrl": "https://www.youtube.com/embed/6FVBp2wMLz4"
+        },
+        "tamil": {
+          "language": "Tamil",
+          "languageCode": "ta",
+          "type": "Trailer",
+          "name": "Tamil Trailer",
+          "official": true,
+          "youtubeKey": "hXHiGLp4EpI",
+          "youtubeWatchUrl": "https://www.youtube.com/watch?v=hXHiGLp4EpI",
+          "youtubeEmbedUrl": "https://www.youtube.com/embed/hXHiGLp4EpI"
+        },
+        "english": {
+          "language": "English",
+          "languageCode": "en",
+          "type": "Trailer",
+          "name": "English Trailer",
+          "official": true,
+          "youtubeKey": "RVs5QNGdFYM",
+          "youtubeWatchUrl": "https://www.youtube.com/watch?v=RVs5QNGdFYM",
+          "youtubeEmbedUrl": "https://www.youtube.com/embed/RVs5QNGdFYM"
+        }
+      },
+      "trailersFound": 4,
+      "languages": [
+        "telugu",
+        "hindi",
+        "tamil",
+        "english"
+      ]
+    },
+    {
+      "movie": {
+        "tmdbId": 1250227,
+        "title": "Stree 2",
+        "originalLanguage": "hi",
+        "year": "2024",
+        "releaseDate": "2024-08-15",
+        "overview": "The residents of Chanderi face a new supernatural terror. Vicky and friends must once again confront the unknown to protect their town from a mysterious evil.",
+        "voteAverage": 7.8,
+        "popularity": 3102.5,
+        "poster": "https://image.tmdb.org/t/p/w500/qRzMBMFnGJoEIoMTMTnHOqNDuYa.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/qRzMBMFnGJoEIoMTMTnHOqNDuYa.jpg"
+      },
+      "trailers": {
+        "hindi": {
+          "language": "Hindi",
+          "languageCode": "hi",
+          "type": "Trailer",
+          "name": "Official Hindi Trailer",
+          "official": true,
+          "youtubeKey": "s02MFZP8kvo",
+          "youtubeWatchUrl": "https://www.youtube.com/watch?v=s02MFZP8kvo",
+          "youtubeEmbedUrl": "https://www.youtube.com/embed/s02MFZP8kvo"
+        },
+        "english": {
+          "language": "English",
+          "languageCode": "en",
+          "type": "Trailer",
+          "name": "English Trailer",
+          "official": true,
+          "youtubeKey": "s02MFZP8kvo",
+          "youtubeWatchUrl": "https://www.youtube.com/watch?v=s02MFZP8kvo",
+          "youtubeEmbedUrl": "https://www.youtube.com/embed/s02MFZP8kvo"
+        }
+      },
+      "trailersFound": 2,
+      "languages": [
+        "hindi",
+        "english"
+      ]
+    },
+    {
+      "movie": {
+        "tmdbId": 1196559,
+        "title": "Devara: Part 1",
+        "originalLanguage": "te",
+        "year": "2024",
+        "releaseDate": "2024-09-27",
+        "overview": "A fearless man who ruled the seas and commanded respect through fear — and his son who must carry forward a legacy he barely understands.",
+        "voteAverage": 6.8,
+        "popularity": 1654.3,
+        "poster": "https://image.tmdb.org/t/p/w500/qRzMBMFnGJoEIoMTMTnHOqNDuYa.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/qRzMBMFnGJoEIoMTMTnHOqNDuYa.jpg"
+      },
+      "trailers": {
+        "telugu": {
+          "language": "Telugu",
+          "languageCode": "te",
+          "type": "Trailer",
+          "name": "Telugu Official Trailer",
+          "official": true,
+          "youtubeKey": "j9nZGvCJ2-A",
+          "youtubeWatchUrl": "https://www.youtube.com/watch?v=j9nZGvCJ2-A",
+          "youtubeEmbedUrl": "https://www.youtube.com/embed/j9nZGvCJ2-A"
+        },
+        "hindi": {
+          "language": "Hindi",
+          "languageCode": "hi",
+          "type": "Trailer",
+          "name": "Hindi Trailer",
+          "official": true,
+          "youtubeKey": "cxT7fM62f3Q",
+          "youtubeWatchUrl": "https://www.youtube.com/watch?v=cxT7fM62f3Q",
+          "youtubeEmbedUrl": "https://www.youtube.com/embed/cxT7fM62f3Q"
+        },
+        "tamil": {
+          "language": "Tamil",
+          "languageCode": "ta",
+          "type": "Trailer",
+          "name": "Tamil Trailer",
+          "official": true,
+          "youtubeKey": "a9eIWt2hMgo",
+          "youtubeWatchUrl": "https://www.youtube.com/watch?v=a9eIWt2hMgo",
+          "youtubeEmbedUrl": "https://www.youtube.com/embed/a9eIWt2hMgo"
+        }
+      },
+      "trailersFound": 3,
+      "languages": [
+        "telugu",
+        "hindi",
+        "tamil"
+      ]
+    },
+    {
+      "movie": {
+        "tmdbId": 1310296,
+        "title": "The Buckley Family Reunion",
+        "originalLanguage": "en",
+        "year": "2024",
+        "releaseDate": "2024-11-08",
+        "overview": "A family holiday reunion goes hilariously off the rails when secrets, old grudges and unexpected guests collide.",
+        "voteAverage": 6.2,
+        "popularity": 812.3,
+        "poster": "https://image.tmdb.org/t/p/w500/bXi6IQiQDHD00JFio5ZSZOeJa26.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/bXi6IQiQDHD00JFio5ZSZOeJa26.jpg"
+      },
+      "trailers": {
+        "english": {
+          "language": "English",
+          "languageCode": "en",
+          "type": "Trailer",
+          "name": "Official Trailer",
+          "official": true,
+          "youtubeKey": "p_tABhBRVbE",
+          "youtubeWatchUrl": "https://www.youtube.com/watch?v=p_tABhBRVbE",
+          "youtubeEmbedUrl": "https://www.youtube.com/embed/p_tABhBRVbE"
+        }
+      },
+      "trailersFound": 1,
+      "languages": [
+        "english"
+      ]
+    },
+    {
+      "movie": {
+        "tmdbId": 1119544,
+        "title": "Moana 2",
+        "originalLanguage": "en",
+        "year": "2024",
+        "releaseDate": "2024-11-27",
+        "overview": "Moana embarks on a new voyage alongside her crew, navigating the far seas of Oceania and into dangerous, long-lost waters for an adventure unlike anything she has ever faced before.",
+        "voteAverage": 7.0,
+        "popularity": 2987.2,
+        "poster": "https://image.tmdb.org/t/p/w500/yYsGpBBgCLF5MxVCHjphFEuEvzX.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/yYsGpBBgCLF5MxVCHjphFEuEvzX.jpg"
+      },
+      "trailers": {
+        "english": {
+          "language": "English",
+          "languageCode": "en",
+          "type": "Trailer",
+          "name": "Official Trailer",
+          "official": true,
+          "youtubeKey": "FcMRtD9yrm4",
+          "youtubeWatchUrl": "https://www.youtube.com/watch?v=FcMRtD9yrm4",
+          "youtubeEmbedUrl": "https://www.youtube.com/embed/FcMRtD9yrm4"
+        },
+        "hindi": {
+          "language": "Hindi",
+          "languageCode": "hi",
+          "type": "Trailer",
+          "name": "Hindi Trailer",
+          "official": true,
+          "youtubeKey": "rQWAUDXReYQ",
+          "youtubeWatchUrl": "https://www.youtube.com/watch?v=rQWAUDXReYQ",
+          "youtubeEmbedUrl": "https://www.youtube.com/embed/rQWAUDXReYQ"
+        },
+        "tamil": {
+          "language": "Tamil",
+          "languageCode": "ta",
+          "type": "Trailer",
+          "name": "Tamil Trailer",
+          "official": true,
+          "youtubeKey": "zVuBqq0YHPU",
+          "youtubeWatchUrl": "https://www.youtube.com/watch?v=zVuBqq0YHPU",
+          "youtubeEmbedUrl": "https://www.youtube.com/embed/zVuBqq0YHPU"
+        },
+        "telugu": {
+          "language": "Telugu",
+          "languageCode": "te",
+          "type": "Trailer",
+          "name": "Telugu Trailer",
+          "official": true,
+          "youtubeKey": "2pBJHOREkE4",
+          "youtubeWatchUrl": "https://www.youtube.com/watch?v=2pBJHOREkE4",
+          "youtubeEmbedUrl": "https://www.youtube.com/embed/2pBJHOREkE4"
+        }
+      },
+      "trailersFound": 4,
+      "languages": [
+        "english",
+        "hindi",
+        "tamil",
+        "telugu"
+      ]
+    },
+    {
+      "movie": {
+        "tmdbId": 1075794,
+        "title": "Lee",
+        "originalLanguage": "en",
+        "year": "2024",
+        "releaseDate": "2024-09-27",
+        "overview": "The story of American photographer Elizabeth 'Lee' Miller, a fashion model who became an acclaimed war correspondent for Vogue magazine during World War II.",
+        "voteAverage": 6.8,
+        "popularity": 934.7,
+        "poster": "https://image.tmdb.org/t/p/w500/wWba3TaojhK7NdycyUPlLRCCPTx.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/wWba3TaojhK7NdycyUPlLRCCPTx.jpg"
+      },
+      "trailers": {
+        "english": {
+          "language": "English",
+          "languageCode": "en",
+          "type": "Trailer",
+          "name": "Official Trailer",
+          "official": true,
+          "youtubeKey": "Mfhf4EMtAhE",
+          "youtubeWatchUrl": "https://www.youtube.com/watch?v=Mfhf4EMtAhE",
+          "youtubeEmbedUrl": "https://www.youtube.com/embed/Mfhf4EMtAhE"
+        }
+      },
+      "trailersFound": 1,
+      "languages": [
+        "english"
+      ]
+    },
+    {
+      "movie": {
+        "tmdbId": 1219685,
+        "title": "Pushpa: The Rule – Part 2",
+        "originalLanguage": "te",
+        "year": "2024",
+        "releaseDate": "2024-12-05",
+        "overview": "Pushpa Raj continues to expand his red sandalwood smuggling empire while facing an intense rivalry with a powerful police officer determined to bring him down.",
+        "voteAverage": 7.9,
+        "popularity": 4231.6,
+        "poster": "https://image.tmdb.org/t/p/w500/qRzMBMFnGJoEIoMTMTnHOqNDuYa.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/qRzMBMFnGJoEIoMTMTnHOqNDuYa.jpg"
+      },
+      "trailers": {
+        "telugu": {
+          "language": "Telugu",
+          "languageCode": "te",
+          "type": "Trailer",
+          "name": "Telugu Official Trailer",
+          "official": true,
+          "youtubeKey": "wCpBcbBHXBY",
+          "youtubeWatchUrl": "https://www.youtube.com/watch?v=wCpBcbBHXBY",
+          "youtubeEmbedUrl": "https://www.youtube.com/embed/wCpBcbBHXBY"
+        },
+        "hindi": {
+          "language": "Hindi",
+          "languageCode": "hi",
+          "type": "Trailer",
+          "name": "Hindi Trailer",
+          "official": true,
+          "youtubeKey": "T5cSTPiw6mE",
+          "youtubeWatchUrl": "https://www.youtube.com/watch?v=T5cSTPiw6mE",
+          "youtubeEmbedUrl": "https://www.youtube.com/embed/T5cSTPiw6mE"
+        },
+        "tamil": {
+          "language": "Tamil",
+          "languageCode": "ta",
+          "type": "Trailer",
+          "name": "Tamil Trailer",
+          "official": true,
+          "youtubeKey": "rvnl1MaAico",
+          "youtubeWatchUrl": "https://www.youtube.com/watch?v=rvnl1MaAico",
+          "youtubeEmbedUrl": "https://www.youtube.com/embed/rvnl1MaAico"
+        },
+        "malayalam": {
+          "language": "Malayalam",
+          "languageCode": "ml",
+          "type": "Trailer",
+          "name": "Malayalam Trailer",
+          "official": true,
+          "youtubeKey": "dVTNj1KRBEU",
+          "youtubeWatchUrl": "https://www.youtube.com/watch?v=dVTNj1KRBEU",
+          "youtubeEmbedUrl": "https://www.youtube.com/embed/dVTNj1KRBEU"
+        },
+        "english": {
+          "language": "English",
+          "languageCode": "en",
+          "type": "Trailer",
+          "name": "English Trailer",
+          "official": true,
+          "youtubeKey": "3pzGlXH3HLE",
+          "youtubeWatchUrl": "https://www.youtube.com/watch?v=3pzGlXH3HLE",
+          "youtubeEmbedUrl": "https://www.youtube.com/embed/3pzGlXH3HLE"
+        }
+      },
+      "trailersFound": 5,
+      "languages": [
+        "telugu",
+        "hindi",
+        "tamil",
+        "malayalam",
+        "english"
+      ]
+    },
+    {
+      "movie": {
+        "tmdbId": 1230321,
+        "title": "Singham Again",
+        "originalLanguage": "hi",
+        "year": "2024",
+        "releaseDate": "2024-11-01",
+        "overview": "Bajirao Singham embarks on a mission to rescue his wife, aided by a team of police officers in an epic battle between good and evil.",
+        "voteAverage": 6.9,
+        "popularity": 1876.4,
+        "poster": "https://image.tmdb.org/t/p/w500/iADOJ8Zymht2JPMoy3R7xceZprc.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/iADOJ8Zymht2JPMoy3R7xceZprc.jpg"
+      },
+      "trailers": {
+        "hindi": {
+          "language": "Hindi",
+          "languageCode": "hi",
+          "type": "Trailer",
+          "name": "Official Hindi Trailer",
+          "official": true,
+          "youtubeKey": "BwJKoIlBUBo",
+          "youtubeWatchUrl": "https://www.youtube.com/watch?v=BwJKoIlBUBo",
+          "youtubeEmbedUrl": "https://www.youtube.com/embed/BwJKoIlBUBo"
+        },
+        "tamil": {
+          "language": "Tamil",
+          "languageCode": "ta",
+          "type": "Trailer",
+          "name": "Tamil Trailer",
+          "official": true,
+          "youtubeKey": "kHHt4CNWTEI",
+          "youtubeWatchUrl": "https://www.youtube.com/watch?v=kHHt4CNWTEI",
+          "youtubeEmbedUrl": "https://www.youtube.com/embed/kHHt4CNWTEI"
+        },
+        "telugu": {
+          "language": "Telugu",
+          "languageCode": "te",
+          "type": "Trailer",
+          "name": "Telugu Trailer",
+          "official": true,
+          "youtubeKey": "K4BHSCy1Cb4",
+          "youtubeWatchUrl": "https://www.youtube.com/watch?v=K4BHSCy1Cb4",
+          "youtubeEmbedUrl": "https://www.youtube.com/embed/K4BHSCy1Cb4"
+        },
+        "english": {
+          "language": "English",
+          "languageCode": "en",
+          "type": "Trailer",
+          "name": "English Trailer",
+          "official": true,
+          "youtubeKey": "BwJKoIlBUBo",
+          "youtubeWatchUrl": "https://www.youtube.com/watch?v=BwJKoIlBUBo",
+          "youtubeEmbedUrl": "https://www.youtube.com/embed/BwJKoIlBUBo"
+        }
+      },
+      "trailersFound": 4,
+      "languages": [
+        "hindi",
+        "tamil",
+        "telugu",
+        "english"
+      ]
+    },
+    {
+      "movie": {
+        "tmdbId": 1241982,
+        "title": "Moana 2",
+        "originalLanguage": "en",
+        "year": "2024",
+        "releaseDate": "2024-11-27",
+        "overview": "Moana receives an unexpected call from her wayfinding ancestors and must journey to the far seas of Oceania and into dangerous, long-lost waters.",
+        "voteAverage": 7.1,
+        "popularity": 3102.0,
+        "poster": "https://image.tmdb.org/t/p/w500/yYsGpBBgCLF5MxVCHjphFEuEvzX.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/yYsGpBBgCLF5MxVCHjphFEuEvzX.jpg"
+      },
+      "trailers": {
+        "english": {
+          "language": "English",
+          "languageCode": "en",
+          "type": "Trailer",
+          "name": "Official Trailer",
+          "official": true,
+          "youtubeKey": "FcMRtD9yrm4",
+          "youtubeWatchUrl": "https://www.youtube.com/watch?v=FcMRtD9yrm4",
+          "youtubeEmbedUrl": "https://www.youtube.com/embed/FcMRtD9yrm4"
+        },
+        "hindi": {
+          "language": "Hindi",
+          "languageCode": "hi",
+          "type": "Trailer",
+          "name": "Hindi Trailer",
+          "official": true,
+          "youtubeKey": "rQWAUDXReYQ",
+          "youtubeWatchUrl": "https://www.youtube.com/watch?v=rQWAUDXReYQ",
+          "youtubeEmbedUrl": "https://www.youtube.com/embed/rQWAUDXReYQ"
+        },
+        "tamil": {
+          "language": "Tamil",
+          "languageCode": "ta",
+          "type": "Trailer",
+          "name": "Tamil Trailer",
+          "official": true,
+          "youtubeKey": "zVuBqq0YHPU",
+          "youtubeWatchUrl": "https://www.youtube.com/watch?v=zVuBqq0YHPU",
+          "youtubeEmbedUrl": "https://www.youtube.com/embed/zVuBqq0YHPU"
+        },
+        "telugu": {
+          "language": "Telugu",
+          "languageCode": "te",
+          "type": "Trailer",
+          "name": "Telugu Trailer",
+          "official": true,
+          "youtubeKey": "2pBJHOREkE4",
+          "youtubeWatchUrl": "https://www.youtube.com/watch?v=2pBJHOREkE4",
+          "youtubeEmbedUrl": "https://www.youtube.com/embed/2pBJHOREkE4"
+        }
+      },
+      "trailersFound": 4,
+      "languages": [
+        "english",
+        "hindi",
+        "tamil",
+        "telugu"
+      ]
+    }
+  ]
+}
