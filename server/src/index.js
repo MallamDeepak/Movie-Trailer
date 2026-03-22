@@ -19,6 +19,77 @@ dotenv.config();
 const app = express();
 const port = process.env.PORT || 5000;
 const curatedEntries = Array.isArray(curatedTrailerCatalog?.movies) ? curatedTrailerCatalog.movies : [];
+const YOUTUBE_OEMBED_URL = 'https://www.youtube.com/oembed';
+const EMBED_CHECK_TTL_MS = 6 * 60 * 60 * 1000;
+const embedAvailabilityCache = new Map();
+
+function extractYoutubeKey(trailer) {
+  const directKey = String(trailer?.youtubeKey || '').trim();
+  if (directKey) {
+    return directKey;
+  }
+
+  const embedUrl = String(trailer?.youtubeEmbedUrl || '').trim();
+  if (embedUrl) {
+    const match = embedUrl.match(/embed\/([a-zA-Z0-9_-]{6,})/);
+    if (match?.[1]) {
+      return match[1];
+    }
+  }
+
+  return '';
+}
+
+function getCachedEmbedStatus(youtubeKey) {
+  const cached = embedAvailabilityCache.get(youtubeKey);
+  if (!cached) {
+    return null;
+  }
+
+  if (Date.now() - cached.checkedAt > EMBED_CHECK_TTL_MS) {
+    embedAvailabilityCache.delete(youtubeKey);
+    return null;
+  }
+
+  return cached.embeddable;
+}
+
+async function isCuratedTrailerEmbeddable(trailer) {
+  const youtubeKey = extractYoutubeKey(trailer);
+  if (!youtubeKey) {
+    return false;
+  }
+
+  const cachedStatus = getCachedEmbedStatus(youtubeKey);
+  if (cachedStatus !== null) {
+    return cachedStatus;
+  }
+
+  try {
+    const response = await axios.get(YOUTUBE_OEMBED_URL, {
+      timeout: 5000,
+      params: {
+        url: `https://www.youtube.com/watch?v=${youtubeKey}`,
+        format: 'json',
+      },
+      validateStatus: (status) => status >= 200 && status < 500,
+    });
+
+    const embeddable = response.status >= 200 && response.status < 300;
+    embedAvailabilityCache.set(youtubeKey, {
+      embeddable,
+      checkedAt: Date.now(),
+    });
+
+    return embeddable;
+  } catch {
+    embedAvailabilityCache.set(youtubeKey, {
+      embeddable: false,
+      checkedAt: Date.now(),
+    });
+    return false;
+  }
+}
 
 function normalizeCuratedSummary(entry, language) {
   const movie = entry?.movie || {};
@@ -58,7 +129,7 @@ function normalizeCuratedTrailer(trailer, language) {
   };
 }
 
-function getCuratedMoviePayload(movieId, language) {
+async function getCuratedMoviePayload(movieId, language) {
   const normalizedLanguage = resolveLanguage(language);
   const parsedId = Number.parseInt(String(movieId || '').trim(), 10);
   if (!Number.isFinite(parsedId)) {
@@ -73,12 +144,29 @@ function getCuratedMoviePayload(movieId, language) {
   const base = normalizeCuratedSummary(entry, normalizedLanguage);
   const trailersByLanguage = {};
 
-  Object.entries(entry?.trailers || {}).forEach(([lang, trailer]) => {
-    const langKey = resolveLanguage(lang);
-    const payload = normalizeCuratedTrailer(trailer, langKey);
-    if (payload) {
-      trailersByLanguage[langKey] = payload;
+  const trailerEntries = Object.entries(entry?.trailers || {});
+  const trailerResults = await Promise.all(
+    trailerEntries.map(async ([lang, trailer]) => {
+      const langKey = resolveLanguage(lang);
+      const payload = normalizeCuratedTrailer(trailer, langKey);
+      if (!payload) {
+        return null;
+      }
+
+      const embeddable = await isCuratedTrailerEmbeddable(payload);
+      if (!embeddable) {
+        return null;
+      }
+
+      return { langKey, payload };
+    })
+  );
+
+  trailerResults.forEach((result) => {
+    if (!result) {
+      return;
     }
+    trailersByLanguage[result.langKey] = result.payload;
   });
 
   const trailer =
@@ -107,7 +195,7 @@ function getCuratedMoviePayload(movieId, language) {
   };
 }
 
-function getCuratedHomePayload(language) {
+async function getCuratedHomePayload(language) {
   const normalizedLanguage = resolveLanguage(language);
   const summaries = curatedEntries
     .map((entry) => normalizeCuratedSummary(entry, normalizedLanguage))
@@ -123,7 +211,7 @@ function getCuratedHomePayload(language) {
   const topRated = summaries.slice(20, 30).length ? summaries.slice(20, 30) : latest;
 
   const heroMovie = latest[0] || null;
-  const heroData = heroMovie ? getCuratedMoviePayload(heroMovie.tmdbId, normalizedLanguage) : null;
+  const heroData = heroMovie ? await getCuratedMoviePayload(heroMovie.tmdbId, normalizedLanguage) : null;
 
   return {
     language: normalizedLanguage,
@@ -284,7 +372,7 @@ app.get('/api/home', async (req, res) => {
       },
     });
   } catch (error) {
-    const fallbackPayload = getCuratedHomePayload(language);
+    const fallbackPayload = await getCuratedHomePayload(language);
     if (fallbackPayload) {
       return res.json(fallbackPayload);
     }
@@ -346,7 +434,7 @@ app.get('/api/movie/:id', async (req, res) => {
       },
     });
   } catch (error) {
-    const fallback = getCuratedMoviePayload(movieId, language);
+    const fallback = await getCuratedMoviePayload(movieId, language);
     if (fallback?.movie) {
       return res.json({ movie: fallback.movie });
     }
@@ -381,7 +469,7 @@ app.get('/api/movie/:id/trailer', async (req, res) => {
 
     res.json({ trailer: trailer || multilingualTrailers.trailers[0] || null });
   } catch (error) {
-    const fallback = getCuratedMoviePayload(movieId, language);
+    const fallback = await getCuratedMoviePayload(movieId, language);
     if (fallback?.movie) {
       if (includeAll) {
         return res.json({
