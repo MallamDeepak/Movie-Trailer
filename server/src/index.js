@@ -47,6 +47,11 @@ function getTmdbClient() {
 app.use(
   cors({
     origin(origin, callback) {
+      if (process.env.VERCEL === '1') {
+        callback(null, true);
+        return;
+      }
+
       if (isAllowedOrigin(origin)) {
         callback(null, true);
         return;
