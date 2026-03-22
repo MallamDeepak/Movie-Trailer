@@ -145,6 +145,7 @@ async function getCuratedMoviePayload(movieId, language) {
 
   const base = normalizeCuratedSummary(entry, normalizedLanguage);
   const trailersByLanguage = {};
+  const languagesNeedingFallback = new Set();
 
   const trailerEntries = Object.entries(entry?.trailers || {});
   const trailerResults = await Promise.all(
@@ -157,6 +158,7 @@ async function getCuratedMoviePayload(movieId, language) {
 
       const embeddable = await isCuratedTrailerEmbeddable(payload);
       if (!embeddable) {
+        languagesNeedingFallback.add(langKey);
         return null;
       }
 
@@ -182,10 +184,12 @@ async function getCuratedMoviePayload(movieId, language) {
     'malayalam',
   ].filter((value, index, list) => value && list.indexOf(value) === index);
 
-  if (!Object.keys(trailersByLanguage).length) {
+  // YouTube fallback for languages that don't have embeddable trailers
+  const languagesWithoutTrailer = preferredLanguages.filter((lang) => !trailersByLanguage[lang]);
+  if (languagesWithoutTrailer.length > 0) {
     try {
       const youtubeClient = createYoutubeClient();
-      for (const langKey of preferredLanguages) {
+      for (const langKey of languagesWithoutTrailer) {
         const fallbackTrailer = await searchYoutubeTrailer(youtubeClient, base.title, year, langKey);
         if (fallbackTrailer?.youtubeEmbedUrl) {
           trailersByLanguage[langKey] = {
