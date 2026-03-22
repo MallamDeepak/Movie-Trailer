@@ -18,14 +18,49 @@ dotenv.config();
 
 const app = express();
 const port = process.env.PORT || 5000;
-const tmdb = createTmdbClient();
+
+function isAllowedOrigin(origin) {
+  if (!origin) {
+    return true;
+  }
+
+  const configuredOrigins = String(process.env.CLIENT_ORIGIN || '')
+    .split(',')
+    .map((item) => item.trim())
+    .filter(Boolean);
+
+  if (configuredOrigins.includes(origin)) {
+    return true;
+  }
+
+  if (origin === 'http://localhost:5173') {
+    return true;
+  }
+
+  return /^https:\/\/client(?:-[a-z0-9-]+)?\.vercel\.app$/i.test(origin);
+}
+
+function getTmdbClient() {
+  return createTmdbClient();
+}
 
 app.use(
   cors({
-    origin: process.env.CLIENT_ORIGIN || '*',
+    origin(origin, callback) {
+      if (isAllowedOrigin(origin)) {
+        callback(null, true);
+        return;
+      }
+
+      callback(new Error('Not allowed by CORS'));
+    },
   })
 );
 app.use(express.json());
+
+app.get('/', (_req, res) => {
+  res.json({ status: 'ok', service: 'movie-trailer-api', docs: '/api/health' });
+});
 
 app.get('/api/image-proxy', async (req, res) => {
   const sourceUrl = String(req.query.url || '').trim();
@@ -74,6 +109,7 @@ app.get('/api/languages', (_req, res) => {
 
 app.get('/api/home', async (req, res) => {
   try {
+    const tmdb = getTmdbClient();
     const language = resolveLanguage(req.query.language);
     const page = Number(req.query.page || 1);
     const rows = await fetchTmdbHomeRows(tmdb, language, page);
@@ -107,6 +143,7 @@ app.get('/api/home', async (req, res) => {
 
 app.get('/api/search', async (req, res) => {
   try {
+    const tmdb = getTmdbClient();
     const query = String(req.query.query || '').trim();
     const language = resolveLanguage(req.query.language);
 
@@ -129,6 +166,7 @@ app.get('/api/search', async (req, res) => {
 
 app.get('/api/movie/:id', async (req, res) => {
   try {
+    const tmdb = getTmdbClient();
     const movieId = req.params.id;
     const language = resolveLanguage(req.query.language);
 
@@ -151,6 +189,7 @@ app.get('/api/movie/:id', async (req, res) => {
 
 app.get('/api/movie/:id/trailer', async (req, res) => {
   try {
+    const tmdb = getTmdbClient();
     const movieId = req.params.id;
     const language = resolveLanguage(req.query.language);
     const includeAll = String(req.query.includeAll || '').trim() === '1';
